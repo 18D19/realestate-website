@@ -1,5 +1,4 @@
 require('dotenv').config();
-console.log("GMAIL_USER:", process.env.GMAIL_USER);
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
