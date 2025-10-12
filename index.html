@@ -120,3 +120,13 @@
 
   </div>
 </footer>
+</section>
+<script>
+  const params = new URLSearchParams(window.location.search);
+  if (params.get("success") === "true") {
+    alert("✅ Your message was sent successfully!");
+  }
+</script>
+
+</body>
+</html>

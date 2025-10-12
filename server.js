@@ -50,7 +50,7 @@ app.post("/submit-form", async (req, res) => {
     console.log("Email sent:", info.response);
 
     // Respond with a friendly success page (or redirect back)
-    res.json({ success: true, message: "Message sent successfully!" });
+   res.redirect("/?success=true");
 
   } catch (err) {
     console.error("Error sending email:", err);
