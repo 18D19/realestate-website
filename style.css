@@ -188,7 +188,7 @@ button:hover {
 }
 
 .social-links a {
-  color: #333;
+  color: rgb(0, 0, 0);
   font-size: 18px;
   text-decoration: none;
   display: flex;
@@ -213,7 +213,7 @@ button:hover {
 /* === FOOTER === */
 footer {
   background: #0078d4;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 15px;
   font-size: 0.9rem;
