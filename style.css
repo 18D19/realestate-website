@@ -220,12 +220,18 @@ footer {
 }
 
 /* Add this below your existing footer style */
-footer a {
-  color: white; /* change all link colors */
-  text-decoration: none;
-  margin: 0 10px;
-  transition: color 0.3s ease;
+footer a[href*="whatsapp"] {
+  color: #25D366; /* WhatsApp green */
 }
+
+footer a[href*="facebook"] {
+  color: #1877F2; /* Facebook blue */
+}
+
+footer a[href*="instagram"] {
+  color: #E1306C; /* Instagram pink */
+}
+
 
 footer a:hover {
   color: #FFD700; /* gold hover effect */
