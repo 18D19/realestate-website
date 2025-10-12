@@ -219,6 +219,19 @@ footer {
   font-size: 0.9rem;
 }
 
+/* Add this below your existing footer style */
+footer a {
+  color: white; /* change all link colors */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #FFD700; /* gold hover effect */
+}
+
+
 /* ===== CONTACT FORM STYLING ===== */
 .contact-form {
   display: flex;
