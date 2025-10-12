@@ -50,16 +50,12 @@ app.post("/submit-form", async (req, res) => {
     console.log("Email sent:", info.response);
 
     // Respond with a friendly success page (or redirect back)
-    res.send(`
-      <h2 style="font-family:sans-serif;">Thank you, ${name}! Your message was sent.</h2>
-      <p><a href="/">Go back to site</a></p>
-    `);
+    res.json({ success: true, message: "Message sent successfully!" });
+
   } catch (err) {
     console.error("Error sending email:", err);
-    res.status(500).send(`
-      <h2 style="font-family:sans-serif;">Sorry, something went wrong. Please try again later.</h2>
-      <p><a href="/">Go back</a></p>
-    `);
+    res.status(500).json({ success: false, message: "Error sending message." });
+
   }
 });
 
