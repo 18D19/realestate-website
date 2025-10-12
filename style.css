@@ -232,12 +232,6 @@ footer a[href*="instagram"] {
   color: #E1306C; /* Instagram pink */
 }
 
-
-footer a:hover {
-  color: #FFD700; /* gold hover effect */
-}
-
-
 /* ===== CONTACT FORM STYLING ===== */
 .contact-form {
   display: flex;
