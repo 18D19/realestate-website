@@ -221,7 +221,7 @@ footer {
 
 /* Add this below your existing footer style */
 footer a[href*="whatsapp"] {
-  color: #25D366; /* WhatsApp green */
+  color: #006400; /* WhatsApp green */
 }
 
 footer a[href*="facebook"] {
