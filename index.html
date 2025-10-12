@@ -77,7 +77,8 @@
 </section>
 
 <!-- ===== CONTACT SECTION ===== -->
-<section id="contact" class="contact">
+<form>
+ <form id="contact" class="contact">
   <h2>Contact Us</h2>
   <p>You can reach us easily through any of the ways below:</p>
 
@@ -99,7 +100,7 @@
 
   </div>
 
-<form id="contact-form">
+ <form id="contact-form">
   <h3>Send Your Query</h3>
 
   <input type="text" name="name" placeholder="Your Name" required>
@@ -120,7 +121,6 @@
 
   </div>
 </footer>
-</section>
 <script>
   const params = new URLSearchParams(window.location.search);
   if (params.get("success") === "true") {
