@@ -188,7 +188,7 @@ button:hover {
 }
 
 .social-links a {
-  color: rgb(0, 0, 0);
+  color: rgb(243, 242, 242);
   font-size: 18px;
   text-decoration: none;
   display: flex;
@@ -202,7 +202,7 @@ button:hover {
 }
 
 .social-links a:hover {
-  color: #0d0d0d;
+  color: #f3f2f2;
 }
 
 /* Brand colors */
